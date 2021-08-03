@@ -119,7 +119,7 @@ void loop() {
     return;
   }
 
-  // write the headers (our colummns) on the SD card log file
+  // write the headers (our columns) on the SD card log file
   myFile = SD.open(filename, FILE_WRITE);
 
   if (myFile) { // if the file opened okay, write to it:
